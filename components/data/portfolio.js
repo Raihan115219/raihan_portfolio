@@ -5,7 +5,7 @@ const portfolio = [
     img: "/images/portfolio-01.jpg",
     category: "Mobile App",
     keyword: ["Mobile", "App", "UI-UX"],
-    liveUrl: "#",
+    liveUrl: "react-food-delivery01.netlify.app",
   },
 
   {
