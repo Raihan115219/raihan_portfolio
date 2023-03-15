@@ -46,7 +46,7 @@ const Portfolio = () => {
                 } secondary__btn text-white`}
                 onClick={() => setFilter("Mobile App")}
               >
-                Mobile App
+                Web Application
               </button>
               <button
                 className={`${

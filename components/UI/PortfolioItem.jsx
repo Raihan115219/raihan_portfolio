@@ -22,9 +22,11 @@ const PortfolioItem = (props) => {
 
       <div className={`${classes.portfolio__live} bg-transparent`}>
         <button className="primary__btn">
-          <a href={liveUrl} rel="noreferrer" target="_blank">
-            Launch
-          </a>
+          <Link href={`https://${liveUrl}`}>
+            <a rel="noreferrer" target="_blank">
+              Launch
+            </a>
+          </Link>
         </button>
       </div>
     </div>

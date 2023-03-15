@@ -1,10 +1,17 @@
 const portfolio = [
   {
     id: "01",
-    title: "Transportation Mobile App",
-    img: "/images/portfolio-01.jpg",
+    title: "Delivered your food",
+    img: "/images/portfolio-07.png",
     category: "Mobile App",
-    keyword: ["Mobile", "App", "UI-UX"],
+    keyword: [
+      "react",
+      "Redux",
+      "redux-toolkit",
+      "bootstrap",
+      "reactstrap",
+      "react-silk",
+    ],
     liveUrl: "react-food-delivery01.netlify.app",
   },
 
