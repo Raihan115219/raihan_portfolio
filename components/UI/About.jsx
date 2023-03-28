@@ -124,6 +124,12 @@ const About = () => {
                   <span className={`${classes.about__icon}`}>
                     <i className="ri-checkbox-circle-line"></i>
                   </span>
+                  Redux && Redux toolkit(Basic)
+                </h6>
+                <h6 className=" d-flex align-items-center gap-2 mt-3 fw-normal">
+                  <span className={`${classes.about__icon}`}>
+                    <i className="ri-checkbox-circle-line"></i>
+                  </span>
                   GraphQL(query & Mutation)
                 </h6>
 
@@ -142,7 +148,12 @@ const About = () => {
               </button>
 
               <button className="secondary__btn">
-                <Link href="#">Download CV</Link>
+                <Link href="https://drive.google.com/file/d/1FEchrFMhmgeT4jzLkj7yikBKBTpvZk_Y/view?usp=share_link">
+                  <a rel="noopener noreferrer" target="_blank">
+                    {" "}
+                    Download CV
+                  </a>
+                </Link>
               </button>
             </div>
           </Col>
