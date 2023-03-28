@@ -45,13 +45,7 @@ const Hero = () => {
           {/* ========== hero img ============= */}
           <Col lg="6" md="6">
             <div className={`${classes.hero__img} text-end`}>
-              <Image
-                alt="hero-image"
-                src={profile}
-                width="400"
-                height="600"
-                objectFit="cover"
-              />
+              <Image alt="hero-image" src={profile} width="400" height="600" />
               <div className={`${classes.hero__skills} `}>
                 <h6>Skills</h6>
                 <div className="bg-transparent">
