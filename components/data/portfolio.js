@@ -3,7 +3,7 @@ const portfolio = [
     id: "01",
     title: "Delivered your food",
     img: "/images/portfolio-07.png",
-    category: "Mobile App",
+    category: "web_application",
     keyword: [
       "react",
       "Redux",
@@ -21,7 +21,7 @@ const portfolio = [
     id: "02",
     title: "Travel World",
     img: "/images/portfolio-05.png",
-    category: "Mobile App",
+    category: "web_application",
     keyword: [
       "React",
       "ReactStrap",
@@ -39,11 +39,21 @@ const portfolio = [
     id: "03",
     title: "Mr. Plamber",
     img: "/images/portfolio-06.png",
-    category: "Mobile App",
+    category: "web_application",
     keyword: ["CRUD", "React", "Firebase", "Express", "MongoDB"],
     liveUrl: "review-service-8e258.web.app/",
     clientRepo: "github.com/Raihan115219/rate-your-work",
     serverRepo: "#",
+  },
+  {
+    id: "04",
+    title: "Amar Bazar",
+    img: "/images/portfolio-10.png",
+    category: "web_application",
+    keyword: ["React", "node js", "Express", "MongoDB", "vercel+ cyclic"],
+    liveUrl: "mern-ecomerce-frontend.vercel.app/",
+    clientRepo: "github.com/Raihan115219/MERN-Ecomerce-Frontend",
+    serverRepo: "github.com/Raihan115219/MERN-Ecommerce-Backend",
   },
 
   {

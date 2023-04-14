@@ -6,11 +6,11 @@ import PortfolioItem from "./PortfolioItem";
 import portfolioData from "../data/portfolio";
 
 const Portfolio = () => {
-  const [filter, setFilter] = useState("Mobile App");
+  const [filter, setFilter] = useState("web_application");
   const [data, setData] = useState();
 
   useEffect(() => {
-    if (filter === "Mobile App") {
+    if (filter === "web_application") {
       const filteredData = portfolioData.filter(
         (item) => item.category === filter
       );
@@ -44,7 +44,7 @@ const Portfolio = () => {
                 className={` ${
                   filter === "Mobile App" ? active : ""
                 } secondary__btn text-white`}
-                onClick={() => setFilter("Mobile App")}
+                onClick={() => setFilter("web_application")}
               >
                 Web Application
               </button>
