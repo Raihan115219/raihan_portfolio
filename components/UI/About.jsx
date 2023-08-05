@@ -100,14 +100,14 @@ const About = () => {
                   </span>
                   Node JS
                 </h6>
-              </div>
-              <div>
                 <h6 className=" d-flex align-items-center gap-2 mt-3 fw-normal">
                   <span className={`${classes.about__icon}`}>
                     <i className="ri-checkbox-circle-line"></i>
                   </span>
                   Express JS
                 </h6>
+              </div>
+              <div>
                 <h6 className=" d-flex align-items-center gap-2 mt-3 fw-normal">
                   <span className={`${classes.about__icon}`}>
                     <i className="ri-checkbox-circle-line"></i>

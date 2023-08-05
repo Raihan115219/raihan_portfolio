@@ -14,9 +14,12 @@ const Contact = () => {
             <SectionSubtitle subtitle="Contact me" />
             <h3 className="mt-4 mb-4">Contact with me</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-              beatae ratione iusto cum. Doloremque suscipit eius provident error
-              labore est reprehenderit, exercitationem corrupti earum deleniti!
+              Crafting an engaging contact section requires a frontend
+              developers expertise in blending aesthetics and functionality.
+              From intuitive forms to interactive maps, seamless integration
+              ensures a user-friendly experience. Effective frontend development
+              harmonizes design and code, fostering connections between users
+              and businesses.
             </p>
 
             <ul className={`${classes.contact__info__list}`}>
@@ -41,16 +44,16 @@ const Contact = () => {
             </ul>
 
             <div className={`${classes.social__links}`}>
-              <Link href="#">
+              <Link href="">
                 <i className="ri-youtube-line"></i>
               </Link>
-              <Link href="#">
+              <Link href="https://github.com/Raihan115219">
                 <i className="ri-github-line"></i>
               </Link>
-              <Link href="#">
+              <Link href="https://www.facebook.com/Raihan115219" target="blank">
                 <i className="ri-facebook-line"></i>
               </Link>
-              <Link href="#">
+              <Link href="https://www.linkedin.com/in/abu-raihan-lin/">
                 <i className="ri-linkedin-line"></i>
               </Link>
               <Link href="#">

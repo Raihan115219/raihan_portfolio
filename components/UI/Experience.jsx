@@ -4,7 +4,7 @@ import SectionSubtitle from "./SectionSubtitle";
 import classes from "../../styles/services.module.css";
 import ServicesItem from "./ServicesItem";
 
-const Services = () => {
+const Experience = () => {
   return (
     <section id="services">
       <Container>
@@ -12,21 +12,29 @@ const Services = () => {
           <Col lg="6" md="6">
             <div className={`${classes.services__container}`}>
               <div>
-                <ServicesItem title="App Development" icon="ri-apps-line" />
-
-                <ServicesItem title="Web Development" icon="ri-computer-line" />
+                <ServicesItem
+                  title="Elements Zero Labs"
+                  icon=" ri-suitcase-fill"
+                  desc="Frontend Developer (January 2023 to April-2023)"
+                />
+                <ServicesItem
+                  title="SilverBird"
+                  icon=" ri-suitcase-fill"
+                  desc="Frontend Developer (June-2023 to Current)"
+                />
               </div>
 
               <ServicesItem
-                title="Full-Stack Development"
-                icon="ri-code-s-slash-line"
+                title="Freelance Project"
+                icon=" ri-suitcase-fill"
+                desc="Part time"
               />
             </div>
           </Col>
 
           <Col lg="6" md="6" className={`${classes.service__title}`}>
-            <SectionSubtitle subtitle="What I do" />
-            <h3 className="mb-0 mt-4">Better Design,</h3>
+            <SectionSubtitle subtitle="Working Experience" />
+            <h3 className="mb-0 mt-4">Work for</h3>
             <h3 className="mb-4">Better Experience</h3>
             <p>
               Passionate Frontend Developer crafting seamless user experiences
@@ -45,4 +53,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default Experience;

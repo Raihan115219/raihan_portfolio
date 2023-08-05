@@ -42,7 +42,7 @@ const Portfolio = () => {
             <div className={`${classes.tab__btns} text-end`}>
               <button
                 className={` ${
-                  filter === "Mobile App" ? active : ""
+                  filter === "web_application" ? active : ""
                 } secondary__btn text-white`}
                 onClick={() => setFilter("web_application")}
               >
