@@ -6,6 +6,7 @@ import Portfolio from "../components/UI/Portfolio";
 import Testimonial from "../components/UI/Testimonial";
 import Contact from "../components/UI/Contact";
 import Experience from "../components/UI/Experience";
+import Head from "next/head";
 
 export default function Home() {
   return (
