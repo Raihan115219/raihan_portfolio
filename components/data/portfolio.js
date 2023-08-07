@@ -1,7 +1,23 @@
 const portfolio = [
   {
     id: "01",
-    title: "Delivered your food",
+    title: "Nano-Ai",
+    img: "/images/NanoAi.png",
+    category: "web_application",
+    keyword: [
+      "Next Js",
+      "TypeScript",
+      "Tailwind(ShadCn)",
+      "Clerk-authentication",
+      "Prisma",
+      "Stripe payment getaway",
+    ],
+    liveUrl: "nano-ai.vercel.app/",
+    clientRepo: "github.com/Raihan115219/Nano_AI",
+  },
+  {
+    id: "01",
+    title: "Food-Fun",
     img: "/images/portfolio-07.png",
     category: "web_application",
     keyword: [
@@ -14,7 +30,16 @@ const portfolio = [
     ],
     liveUrl: "react-food-delivery01.netlify.app",
     clientRepo: "github.com/Raihan115219/tour_management-Frontend-",
-    serverRepo: "",
+  },
+  {
+    id: "04",
+    title: "Amar Bazar",
+    img: "/images/portfolio-10.png",
+    category: "web_application",
+    keyword: ["React", "node js", "Express", "MongoDB", "vercel+ cyclic"],
+    liveUrl: "mern-ecomerce-frontend.vercel.app/",
+    clientRepo: "github.com/Raihan115219/MERN-Ecomerce-Frontend",
+    serverRepo: "github.com/Raihan115219/MERN-Ecommerce-Backend",
   },
 
   {
@@ -43,17 +68,6 @@ const portfolio = [
     keyword: ["CRUD", "React", "Firebase", "Express", "MongoDB"],
     liveUrl: "review-service-8e258.web.app/",
     clientRepo: "github.com/Raihan115219/rate-your-work",
-    serverRepo: "#",
-  },
-  {
-    id: "04",
-    title: "Amar Bazar",
-    img: "/images/portfolio-10.png",
-    category: "web_application",
-    keyword: ["React", "node js", "Express", "MongoDB", "vercel+ cyclic"],
-    liveUrl: "mern-ecomerce-frontend.vercel.app/",
-    clientRepo: "github.com/Raihan115219/MERN-Ecomerce-Frontend",
-    serverRepo: "github.com/Raihan115219/MERN-Ecommerce-Backend",
   },
 
   {

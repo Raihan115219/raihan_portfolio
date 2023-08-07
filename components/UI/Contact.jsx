@@ -48,13 +48,31 @@ const Contact = () => {
                 <i className="ri-youtube-line"></i>
               </Link>
               <Link href="https://github.com/Raihan115219">
-                <i className="ri-github-line"></i>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  className="text-decoration-none"
+                >
+                  <i className="ri-github-line"></i>
+                </a>
               </Link>
-              <Link href="https://www.facebook.com/Raihan115219" target="blank">
-                <i className="ri-facebook-line"></i>
+              <Link href="https://www.facebook.com/Raihan115219">
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  className="text-decoration-none"
+                >
+                  <i className="ri-facebook-line"></i>
+                </a>
               </Link>
               <Link href="https://www.linkedin.com/in/abu-raihan-lin/">
-                <i className="ri-linkedin-line"></i>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  className="text-decoration-none"
+                >
+                  <i className="ri-linkedin-line"></i>
+                </a>
               </Link>
               <Link href="#">
                 <i className="ri-instagram-line"></i>

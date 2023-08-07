@@ -21,27 +21,29 @@ const PortfolioItem = (props) => {
       </div>
 
       <div className={`${classes.portfolio__live} bg-transparent`}>
-        <button className="primary__btn">
+        <button className="primary__btn m-lg-1">
           <Link href={`https://${liveUrl}`}>
             <a rel="noreferrer" target="_blank">
               Launch
             </a>
           </Link>
         </button>
-        <button className="primary__btn">
+        <button className="primary__btn m-lg-1">
           <Link href={`https://${clientRepo}`}>
             <a rel="noreferrer" target="_blank">
               GitHub
             </a>
           </Link>
         </button>
-        <button className="primary__btn">
-          <Link href={`https://${serverRepo}`}>
-            <a rel="noreferrer" target="_blank">
-              server Repo
-            </a>
-          </Link>
-        </button>
+        {serverRepo && (
+          <button className="primary__btn m-lg-1">
+            <Link href={`https://${serverRepo}`}>
+              <a rel="noreferrer" target="_blank">
+                server Repo
+              </a>
+            </Link>
+          </button>
+        )}
       </div>
     </div>
   );

@@ -34,7 +34,7 @@ const Testimonial = () => {
                 <div className={`${classes.testimonial__client}`}>
                   <Image
                     alt="client-img"
-                    src="/images/hero.jpg"
+                    src="/images/img-02.jpg"
                     width="50"
                     height="50"
                     className=" rounded-2"
@@ -60,7 +60,7 @@ const Testimonial = () => {
                 <div className={`${classes.testimonial__client}`}>
                   <Image
                     alt="client-img"
-                    src="/images/hero.jpg"
+                    src="/images/img-03.jpg"
                     width="50"
                     height="50"
                     className=" rounded-2"
@@ -86,7 +86,7 @@ const Testimonial = () => {
                 <div className={`${classes.testimonial__client}`}>
                   <Image
                     alt="client-img"
-                    src="/images/hero.jpg"
+                    src="/images/img-04.jpg"
                     width="50"
                     height="50"
                     className=" rounded-2"
