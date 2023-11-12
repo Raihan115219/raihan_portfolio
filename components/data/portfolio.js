@@ -1,19 +1,12 @@
 const portfolio = [
   {
     id: "01",
-    title: "Nano-Ai",
-    img: "/images/NanoAi.png",
+    title: "HomeRent",
+    img: "/images/rent.png",
     category: "web_application",
-    keyword: [
-      "Next Js",
-      "TypeScript",
-      "Tailwind(ShadCn)",
-      "Clerk-authentication",
-      "Prisma",
-      "Stripe payment getaway",
-    ],
-    liveUrl: "nano-ai.vercel.app/",
-    clientRepo: "github.com/Raihan115219/Nano_AI",
+    keyword: ["React js", "Tailwind(ShadCn)", "Stripe payment getaway"],
+    liveUrl: "home-land.vercel.app/",
+    clientRepo: "github.com/Raihan115219/homeLand",
   },
   {
     id: "02",
