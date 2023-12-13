@@ -64,13 +64,14 @@ const Header = () => {
           </div>
 
           {/* ========= nav menu =========== */}
+
           <div
             className={`${classes.navigation}`}
             ref={menuRef}
             onClick={toggleMenu}
           >
             <div className={`${classes.nav__menu}`}>
-              {NAV__LINK.map((item, index) => (
+              {NAV__LINK?.map((item, index) => (
                 <Link href={item.path} key={index}>
                   {item.display}
                 </Link>
@@ -84,9 +85,18 @@ const Header = () => {
             </div>
           </div>
 
-          <span className={`${classes.mobile__menu}`}>
+          <div className={`${classes.mobile__menu}`}>
+            <Link href="https://github.com/Raihan115219">
+              <a
+                rel="noreferrer"
+                target="_blank"
+                className="text-decoration-none"
+              >
+                <i className="ri-github-line"></i>
+              </a>
+            </Link>
             <i className="ri-menu-line" onClick={toggleMenu}></i>
-          </span>
+          </div>
         </div>
       </Container>
     </header>

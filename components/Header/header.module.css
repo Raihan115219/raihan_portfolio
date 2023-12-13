@@ -76,7 +76,6 @@
 .mobile__menu i {
   font-size: 1.3rem;
   color: #fff;
-
   cursor: pointer;
 }
 
@@ -113,7 +112,10 @@
   }
 
   .mobile__menu {
-    display: block !important;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
   }
 
   .menu__active {
