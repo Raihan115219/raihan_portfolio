@@ -20,7 +20,7 @@ const Experience = () => {
                 <ServicesItem
                   title="SilverBird"
                   icon=" ri-suitcase-fill"
-                  desc="Frontend Developer (June-2023 to Current)"
+                  desc="Frontend Developer (June-2023 to August-2023)"
                 />
               </div>
 

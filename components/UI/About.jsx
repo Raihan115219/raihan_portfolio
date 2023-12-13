@@ -60,12 +60,6 @@ const About = () => {
                   </span>
                   Chakra UI
                 </h6>
-                <h6 className=" d-flex align-items-center gap-2 mt-3 fw-normal">
-                  <span className={`${classes.about__icon}`}>
-                    <i className="ri-checkbox-circle-line"></i>
-                  </span>
-                  Figma
-                </h6>
               </div>
 
               <div>
@@ -124,13 +118,13 @@ const About = () => {
                   <span className={`${classes.about__icon}`}>
                     <i className="ri-checkbox-circle-line"></i>
                   </span>
-                  Redux && Redux toolkit(Basic)
+                  Redux && toolkit query
                 </h6>
                 <h6 className=" d-flex align-items-center gap-2 mt-3 fw-normal">
                   <span className={`${classes.about__icon}`}>
                     <i className="ri-checkbox-circle-line"></i>
                   </span>
-                  GraphQL(query & Mutation)
+                  GraphQL
                 </h6>
 
                 <h6 className=" d-flex align-items-center gap-2 mt-3 fw-normal">
