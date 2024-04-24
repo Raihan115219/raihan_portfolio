@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import SectionSubtitle from "./SectionSubtitle";
 import { Container, Row, Col } from "reactstrap";
 import Image from "next/image";
@@ -8,6 +8,8 @@ import classes from "../../styles/hero.module.css";
 import profile from "../../public/images/porf.jpg";
 
 const Hero = () => {
+  const [item, setItem] = useState([]);
+
   return (
     <section className={`${classes.hero}`}>
       <Container>
@@ -63,7 +65,7 @@ const Hero = () => {
                 </span>
                 <div className="bg-transparent">
                   <h6>Experience</h6>
-                  <h5 className="mb-0">1.5 Year</h5>
+                  <h5 className="mb-0">2 Year</h5>
                 </div>
               </div>
             </div>

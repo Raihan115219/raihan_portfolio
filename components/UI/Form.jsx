@@ -2,9 +2,38 @@ import React from "react";
 import classes from "../../styles/form.module.css";
 
 const Form = () => {
-  const submitHandler = () => {
+  const submitHandler = ({ data }) => {
     e.preventDefault();
+    const communityCheck=[]
+    if(data){
+      console.log({data})
+    }else(
+      data.push("data-check",communityCheck)
+    )
   };
+
+  const validationSchema = {
+    firstName: "",
+    lastName: "",
+    mobileNo: "235789",
+    userName: "testUnique",
+    Password: "",
+    confirmPassword: "",
+    isValidated: false,
+  };
+
+
+
+
+
+
+
+
+  const goodMorning=w9i=>{
+    amr sonar bangla ami toma
+  }
+
+
   return (
     <form className={`${classes.form}`} onSubmit={submitHandler}>
       <div className={`${classes.form__group}`}>

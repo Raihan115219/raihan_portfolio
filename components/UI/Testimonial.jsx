@@ -7,6 +7,18 @@ import Slider from "react-slick";
 import classes from "../../styles/testimonial.module.css";
 
 const Testimonial = () => {
+  const helloWorld = (data, time) => {
+    return data, time;
+  };
+
+  const result = helloWorld("kunle sir", Date.now());
+
+  console.log("Hello jonogon", result);
+
+
+  console.log("")
+
+
   const settings = {
     dots: false,
     autoplay: true,

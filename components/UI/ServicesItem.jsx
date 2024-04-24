@@ -10,7 +10,7 @@ const ServicesItem = ({ title, icon, desc }) => {
 
       <div className="flex flex-row bg-transparent text-white-500">
         <h5>{title}</h5>
-        <h6 className="bg-transparent ">{desc}</h6>
+        <h6 className="bg-transparent">{desc}</h6>
       </div>
     </div>
   );
